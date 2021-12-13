@@ -6,7 +6,7 @@ open you favorite terminal "windows command prompt" or "Node.js command prompt" 
 
 ## Step 1: install devDependencies packages
 
-run: **npm install -D tailwindcss@next postcss-cli@latest autoprefixer@latest cssnano@latest**
+run: **npm install -D tailwindcss@latest postcss-cli@latest autoprefixer@latest cssnano@latest**
 
 ## Step 2: start postcss
 
