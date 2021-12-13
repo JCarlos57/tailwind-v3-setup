@@ -1,0 +1,13 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env TAILWIND_MODE=watch&postcss tailwind.css -o ./public/styles.css -w --verbose",
+    "prod": "env NODE_ENV=production postcss tailwind.css -o ./public/styles.css --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
