@@ -1,6 +1,6 @@
-# tailwind-jit-setup
+# tailwind-v3-setup
 
-This is a boilerplate for a new project usin Tailwind CSS v3 as a PostCSS plugin with JIT mode.
+This is a boilerplate for a new project usin Tailwind CSS v3 as a PostCSS plugin.
 
 open you favorite terminal "windows command prompt" or "Node.js command prompt" and CD into proyect folder
 
