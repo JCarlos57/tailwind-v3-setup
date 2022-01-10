@@ -1,7 +1,7 @@
-module.exports = (ctx) => ({
+module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
-    cssnano: ctx.env === 'production' ? {} : false,
-  },
-})
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
+  }
+}
